@@ -20,7 +20,7 @@ type ApiResponse = {
 
 const postsQuery = `
 query {
-  publication(host: "compiler.blog") {
+  publication(host: "mikesheehy.hashnode.dev") {
     title
     posts(first: 10) {
       edges {
