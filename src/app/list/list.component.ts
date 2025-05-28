@@ -41,10 +41,9 @@ query {
 `;
 
 @Component({
-  selector: 'app-list',
-  standalone: true,
-  imports: [CommonModule],
-  templateUrl: './list.component.html',
+    selector: 'app-list',
+    imports: [CommonModule],
+    templateUrl: './list.component.html'
 })
 export class ListComponent implements OnInit {
   blogPosts: BlogPost[] = [];
