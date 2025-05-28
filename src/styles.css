@@ -2,3 +2,7 @@
 @tailwind base;  
 @tailwind components;  
 @tailwind utilities;
+
+.dark\:text-gray-950:is(.dark *) {
+    color: #d1d5db;
+}
